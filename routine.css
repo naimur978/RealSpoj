@@ -84,27 +84,30 @@
     position: relative;
     display: inline-block;
    /* border-bottom: 1px dotted #ccc;*/
-    zcursor: help;
+   /* zcursor: help;*/
     /*color: #006080;*/
     text-align: center;
 }
 .tooltip .tooltiptext {
     visibility: visible;
     position: absolute;
-    width: 100px;
+    width: 150px;
     background-color: black;
     color: white;
-    text-align: center;
-    padding: 2px 0;
-    border-radius: 2px;
+    
+    padding: 1px 0;
+    border-radius: 50px;
     z-index: 1;
     opacity: 0;
     transition: opacity 1s;
-    height: 80px;
+    height: 18px;
+  text-align: center;
 }
+    
 .tooltip:hover .tooltiptext {
     visibility: visible;
     opacity: 1;
+  text-align: center;
 }
 
 
@@ -142,19 +145,20 @@
  
  					 </div>
  		</td>
+
  		<td class="vertical horizontal">
 					<div class="tooltip">Microprocessor
-   		 <span class="tooltiptext tooltip-top"><p>CSE 415</p> MMI</span>
+   		 <span class="tooltiptext ">CSE 415 : MMI </span>
  					 </div>
  		</td>
  		<td class="vertical horizontal">
 					<div class="tooltip">Algorithm
-   		 <span class="tooltiptext tooltip-top"><p>CSE 411</p> MSC</span>
+		<span class="tooltiptext ">CSE 411 : MSC </span>
  					 </div>
  		</td>
  		<td class="vertical horizontal">
 					<div class="tooltip">Microprocessor Lab
-   		 <span class="tooltiptext tooltip-top"><p>CSE 416</p> MMI</span>
+		<span class="tooltiptext ">CSE 416 : MMI</span>
  					 </div>
  		</td>
 
@@ -168,17 +172,17 @@
  		</td>
  		<td class="vertical horizontal">
 					<div class="tooltip">Numerical Methods
-   		 <span class="tooltiptext tooltip-top"><p>MAT 431</p> MF</span>
+		<span class="tooltiptext ">MAT 431 : MF</span>
  					 </div>
  		</td>
  		<td class="vertical horizontal">
 					<div class="tooltip">Database
-   		 <span class="tooltiptext tooltip-top"><p>MAT 431</p> MF</span>
+		<span class="tooltiptext ">MAT 431 : MF</span>
  					 </div>
  		</td>
  		<td class="vertical horizontal">
 					<div class="tooltip">Algorithm Lab
-   		 <span class="tooltiptext tooltip-top"><p>CSE 413</p> SC</span>
+		<span class="tooltiptext ">CSE 413 : SC</span>
  					 </div>
  		</td>
 
@@ -193,17 +197,17 @@
  		</td>
  		<td class="vertical horizontal">
 					<div class="tooltip">Microprocessor
-   		 <span class="tooltiptext tooltip-top"><p>CSE 415</p> MMI</span>
+		<span class="tooltiptext ">CSE 415 : MMI</span>
  					 </div>
  		</td>
  		<td class="vertical horizontal">
 					<div class="tooltip">Database
-   		 <span class="tooltiptext tooltip-top"><p>CSE 413</p> SC</span>
+		<span class="tooltiptext ">CSE 413 : SC</span>
  					 </div>
  		</td>
  		<td class="vertical horizontal">
 					<div class="tooltip">Numerical Methods Lab
-   		 <span class="tooltiptext tooltip-top"><p>MAT 432</p> MF</span>
+		<span class="tooltiptext ">MAT 432 : MF</span>
  					 </div>
  		</td>
 
@@ -218,17 +222,17 @@
  		</td>
  		<td class="vertical horizontal">
 					<div class="tooltip">Microprocessor Lab
-   		 <span class="tooltiptext tooltip-top"><p>CSE 416</p> MMI</span>
+		<span class="tooltiptext ">CSE 416 : MMI</span>
  					 </div>
  		</td>
  		<td class="vertical horizontal">
 					<div class="tooltip">Numerical Methods Lab
-   		 <span class="tooltiptext tooltip-top"><p>MAT 432</p> MF</span>
+		<span class="tooltiptext ">MAT 432 : MF</span>
  					 </div>
  		</td>
  		<td class="vertical horizontal">
 					<div class="tooltip">Database Lab
-   		 <span class="tooltiptext tooltip-top"><p>CSE 414</p> SC</span>
+		<span class="tooltiptext ">CSE 414 : SC</span>
  					 </div>
  		</td>
 
@@ -243,25 +247,21 @@
  		</td>
  		<td class="vertical horizontal">
 					<div class="tooltip">Algorithm
-   		 <span class="tooltiptext tooltip-top"><p>CSE 411</p> MSC</span>
+		<span class="tooltiptext ">CSE 411 : MSC</span>
  					 </div>
  		</td>
  		<td class="vertical horizontal">
 					<div class="tooltip">Algorithm Lab
-   		 <span class="tooltiptext tooltip-top"><p>CSE 412</p> MSC</span>
+		<span class="tooltiptext ">CSE 412 : MSC</span>
  					 </div>
  		</td>
  		<td class="vertical horizontal">
 					<div class="tooltip">Numerical Methods
-   		 <span class="tooltiptext tooltip-top"><p>MAT 431</p> MF</span>
+		<span class="tooltiptext ">MAT 431 : MF</span>
  					 </div>
  		</td>
 
 	</tr>
-
-	
-
-
 
 
 	</div>
