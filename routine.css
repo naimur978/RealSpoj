@@ -6,13 +6,17 @@
 	<link rel="stylesheet" type="text/css" href="https://getbootstrap.com/docs/4.1/getting-started/download/">
 	<style type="text/css">
 
+	.container{
+	padding: 55px 70px;
+    }
+
 	h1 {
 		text-align: center;
 	}
 
 	body{
 		//background-color: ivory;
-		background: linear-gradient(#f69d3c, #3f87a6);
+		background: radial-gradient(#f69d3c, #3f87a6);
 	}
 
 
@@ -28,7 +32,7 @@
 
 	td:hover {
 		/*border: 1px solid grey;*/
-		background-color: snow;
+		background-color: transparent;
 		cursor: grab;
 		transition: 2.0s;
 		webkit-transition : all 2.0s;
@@ -85,17 +89,17 @@
     text-align: center;
 }
 .tooltip .tooltiptext {
-    visibility: hidden;
+    visibility: visible;
     position: absolute;
     width: 100px;
-    background-color: #555;
-    color: #fff;
+    background-color: black;
+    color: white;
     text-align: center;
     padding: 2px 0;
     border-radius: 2px;
     z-index: 1;
     opacity: 0;
-    transition: opacity .6s;
+    transition: opacity 1s;
     height: 80px;
 }
 .tooltip:hover .tooltiptext {
@@ -104,11 +108,12 @@
 }
 
 
+
 	</style>
 </head>
 <body>
 
-	//<div class="container">
+	<div class="container">
 		<h1>Class Routine</h1>
 
 <table >
@@ -257,9 +262,9 @@
 	
 
 
-	//</div>
 
 
+	</div>
 
 
 </body>
